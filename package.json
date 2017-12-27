@@ -1,0 +1,19 @@
+{
+  "name": "pie-gen",
+  "version": "0.0.1",
+  "description": "Pie chart generator",
+  "main": "dist/pie-gen-js/pie-gen.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "haxe build.hxml",
+    "watch": "nodemon --exec \"haxe build.hxml\" --ext \"hx\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anton Zemlyansky",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
